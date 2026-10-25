@@ -1,0 +1,33 @@
+# Generated applications and build output
+dist/
+.build/
+build/
+DerivedData/
+*.app/
+*.dSYM/
+
+# Local editor/agent state and Finder metadata
+.codex/
+.DS_Store
+._*
+xcuserdata/
+*.xcuserstate
+
+# Local diagnostics, screenshots and backups
+*.log
+*.zip
+*.tar
+*.tar.gz
+docs/glass-jarvis-validation/
+docs/hud-validation/
+docs/screenshots/
+
+# Local credentials and signing exports
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.pem
+*.key
+*.mobileprovision
